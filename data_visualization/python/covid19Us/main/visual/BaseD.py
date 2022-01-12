@@ -35,8 +35,7 @@ class Basedata:
         else:
             return self
 
-b = Basedata()
-b.save_base_data()
+
 
 
 

@@ -1,16 +1,25 @@
 from pyecharts import options
 from pyecharts.charts import Bar
 import pandas as pd
-from main.data.BaseData import Basedata
 import os
-from main.test import Test
+from main.exception.Base_Exception import BaseExceptionss
+from main.visual.BaseD import Basedata
+
+class BarVisual(Basedata):
+    def __init__(self):
+        self.data = pd.read_csv("./data.csv")
+        if self.data is None:
+            raise BaseExceptionss("")
+
+
+    def bar(self):
+        group_state = self.data.groupby(['Province_State'])['Confirmed'].sum()
+        print(group_state)
 
 
 
 d = BarVisual()
-
-
-
+d.bar()
 
 
 

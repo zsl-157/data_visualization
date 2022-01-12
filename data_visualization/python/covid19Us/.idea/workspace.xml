@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ebd9add-e33f-49b9-9a07-5078d6fe28b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/data/BaseData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/visual/bar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/exception/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/BaseData.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/data/BaseData.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/visual/BaseD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/exception/Base_Exception.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/visual/bar.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/visual/bar.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/visual/bar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="157">
+              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -29,23 +29,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/data/BaseData.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/install/python3.6/Lib/site-packages/pandas/core/reshape/pivot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-972">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="265">
+              <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/test.py">
+        <entry file="file://$PROJECT_DIR$/main/exception/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/exception/Base_Exception.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="324">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/visual/BaseD.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -100,8 +116,12 @@
         <option value="$PROJECT_DIR$/main/CovidUs21.py" />
         <option value="$PROJECT_DIR$/main/BaseData.py" />
         <option value="$PROJECT_DIR$/main/test.py" />
-        <option value="$PROJECT_DIR$/main/visual/bar.py" />
         <option value="$PROJECT_DIR$/main/data/BaseData.py" />
+        <option value="$PROJECT_DIR$/main/visual/BaseData.py" />
+        <option value="$PROJECT_DIR$/main/visual/__init__.py" />
+        <option value="$PROJECT_DIR$/main/exception/FileNotFoundException.py" />
+        <option value="$PROJECT_DIR$/main/exception/Base_Exception.py" />
+        <option value="$PROJECT_DIR$/main/visual/bar.py" />
       </list>
     </option>
   </component>
@@ -116,7 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,7 +152,7 @@
               <item name="covid19Us" type="b2602c69:ProjectViewProjectNode" />
               <item name="covid19Us" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="covid19Us" type="b2602c69:ProjectViewProjectNode" />
@@ -145,6 +164,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BaseData (1)">
+  <component name="RunManager" selected="Python.bar">
     <configuration name="BaseData (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="covid19Us" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,7 +238,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="CovidUs21" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Base_Exception" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="covid19Us" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,12 +246,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main/exception" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\Project\python\data_visualization\python\covid19Us\main\BaseData.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/exception/Base_Exception.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -286,11 +306,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.BaseData (1)" />
         <item itemvalue="Python.bar" />
+        <item itemvalue="Python.Base_Exception" />
+        <item itemvalue="Python.BaseData (1)" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.BaseData" />
-        <item itemvalue="Python.CovidUs21" />
       </list>
     </recent_temporary>
   </component>
@@ -307,6 +327,7 @@
       <workItem from="1640747631073" duration="16499000" />
       <workItem from="1641023480218" duration="7097000" />
       <workItem from="1641814220604" duration="5867000" />
+      <workItem from="1641989188741" duration="5018000" />
     </task>
     <task id="LOCAL-00001" summary="..">
       <created>1641025353429</created>
@@ -326,17 +347,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29463000" />
+    <option name="totallyTimeSpent" value="34481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22121604" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2244502" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="27" y="211" width="1546" height="438" id="Run" order="2" weight="0.44937587" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32871014" />
+      <window_info anchor="bottom" x="27" y="211" width="1546" height="438" id="Run" order="2" weight="0.052704576" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5492372" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -425,7 +446,8 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/covid19Us$BaseData.coverage" NAME="BaseData Coverage Results" MODIFIED="1641815027798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/covid19Us$test.coverage" NAME="test Coverage Results" MODIFIED="1641876560064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
-    <SUITE FILE_PATH="coverage/covid19Us$bar.coverage" NAME="bar Coverage Results" MODIFIED="1641876754238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/visual" />
+    <SUITE FILE_PATH="coverage/covid19Us$bar.coverage" NAME="bar Coverage Results" MODIFIED="1641993518739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/visual" />
+    <SUITE FILE_PATH="coverage/covid19Us$Base_Exception.coverage" NAME="Base_Exception Coverage Results" MODIFIED="1641991372158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/exception" />
     <SUITE FILE_PATH="coverage/covid19Us$BaseData__1_.coverage" NAME="BaseData (1) Coverage Results" MODIFIED="1641876843645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/data" />
     <SUITE FILE_PATH="coverage/covid19Us$CovidUs21.coverage" NAME="CovidUs21 Coverage Results" MODIFIED="1641024186753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
   </component>
@@ -433,6 +455,9 @@
     <entry file="file://$PROJECT_DIR$/main/dataset.txt" />
     <entry file="file://$PROJECT_DIR$/main/dataset.csv" />
     <entry file="file://$PROJECT_DIR$/main/d.csv" />
+    <entry file="file://$PROJECT_DIR$/main/data.csv" />
+    <entry file="file://$PROJECT_DIR$/main/BaseData.py" />
+    <entry file="file://$PROJECT_DIR$/main/data/data.csv" />
     <entry file="file://$PROJECT_DIR$/Lib/site-packages/pandas/core/frame.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104076">
@@ -454,52 +479,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/data.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/BaseData.py">
+    <entry file="file://$PROJECT_DIR$/main/data/BaseData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        <state relative-caret-position="144">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/data/data.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/main/visual/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/main/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="267">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/exception/FileNotFoundException.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/visual/BaseD.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/729379357/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="179" column="4" selection-start-line="179" selection-start-column="4" selection-end-line="179" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/install/python3.6/Lib/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding>
+            <element signature="e#1114#1124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/exception/Base_Exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/exception/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/install/python3.6/Lib/site-packages/pandas/core/reshape/pivot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/visual/bar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="157">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/data/BaseData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-972">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
